@@ -65,6 +65,7 @@ Invoke-ps2exe -inputFile "GEM.ps1" -outputFile "GameEnhancementManager.exe" -ico
    * Minimizing the window sends GEM directly to the System Tray.
    * Right-click the tray icon to toggle Auto-Detection, force performance states, or cleanly close the process.
 
+> **Resource Management Tip:** You can manually apply a state and completely quit GEM to reclaim the ~50MB of RAM it consumes in the background; Windows will retain the forced power scheme at the OS level. **However, this is not recommended for Gaming Mode.** Leaving your CPU cores permanently unparked after closing your game will needlessly waste system energy and generate continuous baseline heat.
 ---
 
 ## Data Storage & Portability
